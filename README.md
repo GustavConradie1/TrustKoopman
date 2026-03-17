@@ -15,6 +15,6 @@ If you find this work useful in your research, please consider citing:
   title={Trustworthy Koopman Operator Learning: Invariance Diagnostics and Error Bounds},
   author={Conradie, Gustav and Boull{\'e}, Nicolas and Brunton, Steven L., and Loiseau, Jean-Christophe and Colbrook, Matthew J. },
   journal={arXiv preprint arXiv:2601.15091},
-  year={2025}
+  year={2026}
 }
 ```
