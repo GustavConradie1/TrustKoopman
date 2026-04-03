@@ -1,5 +1,5 @@
 # TrustKoopman
-The repository contains the code for the paper [Trustworthy Koopman Operator Learning: Invariance Diagnostics and Error Bounds](https://arxiv.org/abs/2603.15091) by Gustav Conradie, Nicolas Boullé, Steven Brunton, Jean-Christopher Loiseau and Matthew Colbrook.
+The repository contains the code for the paper [Trustworthy Koopman Operator Learning: Invariance Diagnostics and Error Bounds](https://arxiv.org/abs/2603.15091) by Gustav Conradie, Nicolas Boullé, Jean-Christopher Loiseau, Steven Brunton and Matthew Colbrook.
 
 <p align="center">
 <img src="https://github.com/GustavConradie1/TrustKoopman/blob/main/img/trustworthy_koopman_examples.png" width=100% height=100% alt>
