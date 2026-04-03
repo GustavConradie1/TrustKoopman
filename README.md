@@ -4,6 +4,10 @@ The repository contains the code for the paper [Trustworthy Koopman Operator Lea
 <p align="center">
 <img src="https://github.com/GustavConradie1/TrustKoopman/blob/main/img/trustworthy_koopman_examples.png" width=100% height=100% alt>
 </p>
+---
+## :file_folder: Dataset
+
+The cavity flow dataset accompanying the code is available on Zenodo at https://zenodo.org/records/15719839.
 
 ---
 
