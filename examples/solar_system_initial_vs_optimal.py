@@ -9,8 +9,6 @@ import matplotlib.pyplot as plt
 import os
 from scipy.io import savemat
 
-#try delay embeddings to state space
-
 class BesselKv(Function):
     @staticmethod
     def forward(ctx, v, x):
@@ -168,7 +166,7 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 dtype = torch.float64
 torch.set_default_dtype(dtype)
 
-data_dir = r"C:\Users" #add desired directory
+data_dir = r"C:\Users" #insert directory of data files here (data found in data folder on Github)
 
 # load data from .mat files
 DATAp = sio.loadmat(os.path.join(data_dir, 'states_pluto2.mat'))['states_pluto2']
