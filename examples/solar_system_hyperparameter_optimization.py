@@ -355,7 +355,7 @@ for epoch in tqdm(range(epochs), desc="Training Progress"):
         pointwise_errors = compute_pointwise_errors(s0,v0)
         pointwise_error_history.append(pointwise_errors.cpu().numpy())
 
-    print(f"\n✅ Best at epoch {best_epoch}: loss={best_loss:.6e}, "
+    print(f"\n Best at epoch {best_epoch}: loss={best_loss:.6e}, "
       f"s={best_params[0]:.6f}, v={best_params[1]:.6f}")
 
 #save results
@@ -396,8 +396,6 @@ plt.legend()
 plt.tight_layout()
 final_fig_path = os.path.join(results_dir, "loss_vs_epoch.png")
 plt.savefig(final_fig_path, dpi=300, bbox_inches='tight')
-print(f"\n📁 Saved final figure to: {final_fig_path}")
-
 plt.show()
 
 
